@@ -13,7 +13,7 @@ public class GUI implements ActionListener {
         JButton button = new JButton("Click Me");
         button.addActionListener(this);
 
-       
+        
         JPanel panel = new JPanel();
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(0, 1));
@@ -21,6 +21,7 @@ public class GUI implements ActionListener {
         panel.add(label);
 
         
+       
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("GUI");
